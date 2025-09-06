@@ -3,3 +3,23 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.main-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.cover-image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    object-position: right center;
+}
