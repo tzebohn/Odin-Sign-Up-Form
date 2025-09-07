@@ -2,13 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: roboto, sans-serif;
 }
 
 .main-container {
     display: flex;
     height: 100vh;
     overflow: hidden;
-    background-color: rgb(46, 45, 45);
+    background-color: rgb(27, 24, 24);
 }
 
 .left-side {
@@ -49,4 +50,48 @@
     font-weight: 800;
     font-family: roboto, sans-serif;
     color: rgb(247, 240, 240);
+}
+
+
+.sign-up-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 60px;
+    gap: 20px;
+}
+
+.intro-text h1{
+    color: white;
+    font-weight: 500;
+    font-size: large;
+}
+
+
+.intro-text span {
+    color: rgb(189, 176, 176);
+    font-size: small;
+    font-weight: 500;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.google-btn, .facebook-btn{
+    padding: 13px 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(46, 43, 43);
+    background-color: rgb(34, 29, 29);
+    color: white;
+    font-size: small;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.google-btn:hover, .facebook-btn:hover {
+    background-color: rgb(51, 44, 44);
 }
