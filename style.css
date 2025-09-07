@@ -95,3 +95,19 @@
 .google-btn:hover, .facebook-btn:hover {
     background-color: rgb(51, 44, 44);
 }
+
+.divider {
+    border: 1px solid rgb(66, 60, 60);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 1px;
+}
+
+.divider span {
+    background-color: rgb(27, 24, 24);
+    padding: 10px;
+    color: rgb(104, 100, 100);
+    font-weight: 400;
+    font-size: medium;
+}
