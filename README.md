@@ -1,7 +1,7 @@
 # Odin-Sign-Up-Form
 This is a simple sign up page built with HTML, CSS, and JavaScript.
 
-#Purpose
+# Purpose
 This project was created as a hands-on learning experience. Rather than focusing on frameworks or complexity, the emphasis is on understanding the fundamentals of front-end development and version control.
 
 The primary goal of this project is to explore and practice the following front-end development concepts:
