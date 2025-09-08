@@ -151,8 +151,14 @@ input:focus {
     border: 2px solid rgb(77, 76, 76);
 }
 
-input:invalid:not(:focus):not(:placeholder-shown) {
-  border: 2px solid red;
+input:invalid:not(:placeholder-shown) {
+    border: 2px solid red;
+}
+
+.error-message {
+    color: red;
+    font-size: smaller;
+    font-weight: 900;
 }
 
 #submit-btn {
